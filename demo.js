@@ -64,6 +64,7 @@ const demo = () => {
       keyExtractor={(item, index) => index.toString()}
       ListFooterComponent={renderFooter}
       onEndReached={handleLoadMore}
+      onEndReachedThreshold={0.5}
     />
   );
 };
